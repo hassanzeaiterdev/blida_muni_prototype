@@ -197,8 +197,8 @@ have a fixed width and height (but it's not required).
 }
 
 .carousel-control {
-  padding-top:10%;
-  width:5%;
+  /*padding-top:7%;
+  width:5%;*/
 }
 
 .thumbnail{
