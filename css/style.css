@@ -227,3 +227,9 @@ have a fixed width and height (but it's not required).
 .ticker-content a{
 	color: #fff !important
 }
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	margin-right: 0px !important
+}
+}
+}
