@@ -207,25 +207,35 @@ have a fixed width and height (but it's not required).
 
 .ticker-wrapper{
 	margin: 0 0 10px 0 !important;
-	background-color: #1771b7 !important;
-	color: #fff
+	background-color: #ffbb00 !important;
+	color: #000;
+	width: 100% !important;
+	border-radius: 0 !important;
+	font-size: 18px !important;
+	height: 45px !important
 }
 
 .ticker{
-	background-color: #1771b7 !important;
+	background-color: #ffbb00 !important;
+	width: 100% !important;
+	height: 45px !important;
+	font-size: 14px !important;
 }
 
 .ticker-content{
-	background-color: #1771b7 !important;
+	background-color: #ffbb00 !important;
+	padding-top: 13px !important;
+	height: 40px !important
 }
 
 .ticker-title{
-	background-color: #1771b7 !important;
-	color: #fff !important
+	background-color: #ffbb00 !important;
+	color: #0044ff !important;
+	font-size: 18px !important
 }
 
 .ticker-content a{
-	color: #fff !important
+	color: #000 !important
 }
 @media screen and (min-width: 768px){
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
