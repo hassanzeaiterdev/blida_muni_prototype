@@ -149,7 +149,7 @@ table.day td.appoint {
 }
 
 #left-side-sections{
-	position: relative; margin-top: -30px; background: #000; color: #fff; font-size: 18px
+	position: relative; margin-top: 10px; background: #000; color: #fff; font-size: 20px
 }
 
 #link_to_bills:hover{
