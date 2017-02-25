@@ -1,0 +1,206 @@
+@font-face {
+    font-family: cocon;
+    src: url(../fonts/cocon.otf);
+}
+
+@font-face {
+    font-family: farsi;
+    src: url(../fonts/farsi.ttf);
+}
+
+h1,h2,h3,h4,h5,h6,span,p,body,html,a,input{
+	font-family:cocon
+}
+
+.custom_links a{
+	color:#fff;
+	font-size: 20px
+}
+
+.social_links{
+	text-align: left;
+	color:#fff;
+	font-size: 20px;
+}
+
+.navbar-nav>li a{
+	color: #000 !important
+}
+
+.navbar-nav>li a:hover{
+	background:#1771b7 !important;
+	color: #fff !important
+}
+
+/* Calendar */
+
+.clasp {
+	background: #aaaaaa;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	box-shadow: 0 -1px 5px rgba(0,0,0,0.4), inset -1px 1px 2px white;
+	display: block;
+	height: 16px;
+	position: absolute;
+	top: -5px;
+	width: 4px;
+	z-index: 2000;
+}
+.clasp.hole-left {
+	left: 9px;
+}
+.clasp.hole-right {
+	right: 9px;
+}
+
+.hole {
+	background: #99ccff;
+	border-radius: 8px;
+	box-shadow: 0 -1px 0 black, inset 0 0 20px #878787;
+	display: block;
+	height: 8px;
+	position: absolute;
+	top: 8px;
+	width: 8px;
+}
+
+.hole-left {
+	left: 8px;
+}
+.hole-right {
+	right: 8px;
+}
+
+#calendar {
+	background: #e4e0e7;
+	box-shadow: 0 0 20px #878787;
+	height: 208px;
+	margin: 5px auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+#month {
+	background: linear-gradient(#1771b7, #73a9d3);
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	text-shadow: 0 -1px 0 #878787;
+	width: 100%;
+}
+
+#days {
+	background: linear-gradient(#f4f4f4, #ebebeb);
+	-webkit-box-shadow: 0 1px 0 #aaaaaa;
+}
+
+table.days {
+	color: #888888;
+	font-size: 11px;
+	width: 100%;
+}
+
+table.day td, table.days td {
+	width: 30px;
+}
+
+table.day td {
+	background: #f4f0f7;
+	color: #878787;
+	height: 29px;
+	box-shadow: 0 -1px 0 white;
+}
+
+table.day td.old-month {
+	color: #aaaaaa;
+}
+
+table.day td:hover {
+  background: #e9e9ee;
+  cursor: pointer;
+}
+
+table.day td.selected {
+	background: linear-gradient(#bcde4b, #8bc620);
+	color: white;
+	text-shadow: 0 -1px 0 #878787;
+}
+
+table.day td.appoint {
+	border-bottom: 2px solid #99ccff;
+}
+
+/* /Calendar */
+
+/* Slider */
+.carousel-caption{
+	font-size: 16px !important;
+	width: 100%;
+	text-align: center;
+	left:0%;
+	right: 0%;
+	background-color: rgba(23,113,183,0.5)
+}
+/* /Slider */
+
+.panel-heading{
+	background: linear-gradient(#1771b7, #73a9d3); color: #fff !important; font-size: 18px; font-weight: 700
+}
+
+#left-side-sections{
+	position: relative; margin-top: -30px; background: #000; color: #fff; font-size: 18px
+}
+
+#link_to_bills:hover{
+	background-color: #eee;
+}
+
+#sitemap{
+	background-color: #fff;
+	border-top: 1px solid #eee
+}
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+.thumbnail{
+	margin-bottom: 0px !important
+}
