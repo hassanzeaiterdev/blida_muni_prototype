@@ -204,3 +204,26 @@ have a fixed width and height (but it's not required).
 .thumbnail{
 	margin-bottom: 0px !important
 }
+
+.ticker-wrapper{
+	margin: 0 0 10px 0 !important;
+	background-color: #1771b7 !important;
+	color: #fff
+}
+
+.ticker{
+	background-color: #1771b7 !important;
+}
+
+.ticker-content{
+	background-color: #1771b7 !important;
+}
+
+.ticker-title{
+	background-color: #1771b7 !important;
+	color: #fff !important
+}
+
+.ticker-content a{
+	color: #fff !important
+}
