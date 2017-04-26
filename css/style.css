@@ -12,15 +12,47 @@ h1,h2,h3,h4,h5,h6,span,p,body,html,a,input{
 	font-family:cocon
 }
 
-.custom_links a{
-	color:#fff;
-	font-size: 20px
+  .custom_links a{
+  	color:#fff;
+  	font-size: 20px
+  }
+
+  .social_links{
+  	text-align: left;
+  	color:#fff;
+  	font-size: 20px;
+  }
+
+  .social_links img{
+    width: 30px
+  }
+
+#date_today{
+  text-align: left;
+  font-size: 20px;
+  padding: 0px 0;
+  margin-bottom: 0px;
+  position: relative;
+  line-height: 124px
 }
 
-.social_links{
-	text-align: left;
-	color:#fff;
-	font-size: 20px;
+@media (max-width: 480px){
+  .custom_links a{
+  	color:#fff;
+  	font-size: 12px
+  }
+  .social_links{
+  	text-align: center;
+  	color:#fff;
+  	font-size: 12px;
+  }
+  .social_links img{
+    width: 20px
+  }
+  #date_today{
+    font-size: 10px;
+    line-height: 20
+  }
 }
 
 .navbar-nav>li a{
@@ -134,6 +166,14 @@ table.day td.appoint {
 /* /Calendar */
 
 /* Slider */
+#main_carousel img{
+  height: 460px !important;
+}
+@media (max-width: 480px){
+  #main_carousel img{
+    height: 250px !important
+  }
+}
 .carousel-caption{
 	font-size: 16px !important;
 	width: 100%;
@@ -237,11 +277,28 @@ have a fixed width and height (but it's not required).
 .ticker-content a{
 	color: #000 !important
 }
+
+@media (max-width: 480px){
+  .ticker-wrapper{
+      font-size: 12px !important;
+      margin: 0px 0px 10px 0px !important;
+      height: 30px !important
+  }
+  .ticker{
+    font-size: 10px !important;
+    height: 30px !important
+  }
+  .ticker-title{
+    font-size: 12px !important
+  }
+  .ticker-content{
+    padding-top: 10px !important
+  }
+}
+
 @media screen and (min-width: 768px){
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
 	margin-right: 0px !important
 }
 }
 }
-
-
